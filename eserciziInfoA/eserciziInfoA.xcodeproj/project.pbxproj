@@ -25,10 +25,6 @@
 /* Begin PBXFileReference section */
 		73927F281F70462B0079CB6F /* eserciziInfoA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = eserciziInfoA; sourceTree = BUILT_PRODUCTS_DIR; };
 		73927F2B1F70462B0079CB6F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		73927F331F7046800079CB6F /* es1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = es1.c; sourceTree = "<group>"; };
-		73927F351F7046C30079CB6F /* es2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = es2.c; sourceTree = "<group>"; };
-		73927F381F7047200079CB6F /* esm1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esm1.c; sourceTree = "<group>"; };
-		73927F3B1F7047B60079CB6F /* esm2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esm2.c; sourceTree = "<group>"; };
 		73FFB3791F7585E700ABFF3C /* 09_2_esC_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 09_2_esC_1.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,29 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				73FFB3781F7585BD00ABFF3C /* 1_eseC */,
-				73927F371F7046E60079CB6F /* 2_eseMatrici */,
-				73927F321F70463D0079CB6F /* 1_eseArray */,
 				73927F2B1F70462B0079CB6F /* main.c */,
 			);
 			path = eserciziInfoA;
-			sourceTree = "<group>";
-		};
-		73927F321F70463D0079CB6F /* 1_eseArray */ = {
-			isa = PBXGroup;
-			children = (
-				73927F331F7046800079CB6F /* es1.c */,
-				73927F351F7046C30079CB6F /* es2.c */,
-			);
-			name = 1_eseArray;
-			sourceTree = "<group>";
-		};
-		73927F371F7046E60079CB6F /* 2_eseMatrici */ = {
-			isa = PBXGroup;
-			children = (
-				73927F381F7047200079CB6F /* esm1.c */,
-				73927F3B1F7047B60079CB6F /* esm2.c */,
-			);
-			name = 2_eseMatrici;
 			sourceTree = "<group>";
 		};
 		73FFB3781F7585BD00ABFF3C /* 1_eseC */ = {
