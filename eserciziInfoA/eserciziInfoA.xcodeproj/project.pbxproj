@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73FFB37A1F7585E700ABFF3C /* 09_2_esC_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 73FFB3791F7585E700ABFF3C /* 09_2_esC_1.c */; };
+		73BBFA5E1F77BA8900B67DCA /* 09_2_esC_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 73BBFA5D1F77BA8900B67DCA /* 09_2_esC_2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		73927F281F70462B0079CB6F /* eserciziInfoA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = eserciziInfoA; sourceTree = BUILT_PRODUCTS_DIR; };
 		73927F2B1F70462B0079CB6F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		73BBFA5B1F77B59500B67DCA /* 09_2_esC_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 09_2_esC_1.c; sourceTree = "<group>"; };
+		73BBFA5D1F77BA8900B67DCA /* 09_2_esC_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 09_2_esC_2.c; sourceTree = "<group>"; };
 		73FFB3791F7585E700ABFF3C /* 09_2_esC_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 09_2_esC_1.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,6 +44,7 @@
 		73927F1F1F70462B0079CB6F = {
 			isa = PBXGroup;
 			children = (
+				73BBFA591F77B55A00B67DCA /* preparazione */,
 				73927F2A1F70462B0079CB6F /* eserciziInfoA */,
 				73927F291F70462B0079CB6F /* Products */,
 			);
@@ -64,10 +67,27 @@
 			path = eserciziInfoA;
 			sourceTree = "<group>";
 		};
+		73BBFA591F77B55A00B67DCA /* preparazione */ = {
+			isa = PBXGroup;
+			children = (
+				73BBFA5A1F77B56600B67DCA /* prep_1_eseC */,
+			);
+			path = preparazione;
+			sourceTree = "<group>";
+		};
+		73BBFA5A1F77B56600B67DCA /* prep_1_eseC */ = {
+			isa = PBXGroup;
+			children = (
+				73BBFA5B1F77B59500B67DCA /* 09_2_esC_1.c */,
+			);
+			path = prep_1_eseC;
+			sourceTree = "<group>";
+		};
 		73FFB3781F7585BD00ABFF3C /* 1_eseC */ = {
 			isa = PBXGroup;
 			children = (
 				73FFB3791F7585E700ABFF3C /* 09_2_esC_1.c */,
+				73BBFA5D1F77BA8900B67DCA /* 09_2_esC_2.c */,
 			);
 			name = 1_eseC;
 			sourceTree = "<group>";
@@ -129,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73FFB37A1F7585E700ABFF3C /* 09_2_esC_1.c in Sources */,
+				73BBFA5E1F77BA8900B67DCA /* 09_2_esC_2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
